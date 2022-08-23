@@ -4,6 +4,28 @@
         "name": "Education",
         "segments": [
             {
+                "title": "THE WHARTON SCHOOL",
+                "lists": [
+                    [
+                        {
+                            "isItalics": false,
+                            "content": "Philadelphia, Pennsylvania",
+                            "icon": "marker"
+                        }
+                    ],
+                    [
+                        {
+                            "isItalics": true,
+                            "content": "Master of Business Administration"
+                        },
+                        {
+                            "isItalics": false,
+                            "content": "Aug 2022 \u2014 May 2024"
+                        }
+                    ]
+                ]
+            },
+            {
                 "title": "NORTHWESTERN UNIVERSITY",
                 "lists": [
                     [
