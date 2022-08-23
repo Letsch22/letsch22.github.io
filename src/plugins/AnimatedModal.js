@@ -9,6 +9,7 @@ global.jQuery = $;
 require("./animatedModal.min");
 
 // React wrapper component for http://joaopereirawd.github.io/animatedModal.js/
+// Requires jQuery v1
 class AnimatedModal extends Component {
 
     componentDidMount() {

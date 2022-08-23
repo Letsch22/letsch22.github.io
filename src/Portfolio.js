@@ -91,7 +91,6 @@ class Portfolio extends Component {
                 </Visibility>
                 <About/>
                 <Resume/>
-                <Projects/>
                 <Footer/>
             </div>
         );
