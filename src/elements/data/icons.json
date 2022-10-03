@@ -1,10 +1,10 @@
-[{
-    "name": "linkedin",
-    "link": "https://www.linkedin.com/in/dpletscher/"
-}, {
-    "name": "github",
-    "link": "https://github.com/Letsch22"
-}, {
-    "name": "mail",
-    "link": "dpletscher@outlook.com"
-}]
+[
+    {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/dpletscher/"
+    },
+    {
+        "name": "github",
+        "link": "https://github.com/Letsch22"
+    }
+]
