@@ -19,7 +19,7 @@ class Title extends Component {
                 </Responsive>
                 <Container className="title-content">
                     <Header as="h1" size="huge" color="teal">DANIEL LETSCHER</Header>
-                    <Header as="h2" size="large">Software Engineer</Header>
+                    <Header as="h2" size="large">Product Manager</Header>
                 </Container>
             </div>
         );
