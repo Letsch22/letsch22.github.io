@@ -68,7 +68,7 @@
         "name": "Experience",
         "segments": [
             {
-                "title": "PATIENTPOP",
+                "title": "PATIENTPOP, A TEBRA COMPANY",
                 "lists": [
                     [
                         {
@@ -98,7 +98,16 @@
                         }
                     ]
                 ],
-                "body": []
+                "body": [
+                    "Drove product roadmap with cross-team stakeholders including product managers, reducing feature creep by five unnecessary user stories and enabling on-time delivery of management’s top epic six weeks ahead of initial estimate",
+                    "Requested by CTO to step in and provide cross-functional leadership to stabilize new team, leading cross-team collaboration to launch a foundational roadmap feature in six weeks",
+                    "Identified need for reduced code duplication and launched three products that met requirements sourced from interviews with department engineers, saving over 12,000 lines of redundant code across 12 microservice projects",
+                    "Designed microservice project quick-start template and implemented product feedback resulting from testing with department engineers, shortening project launch times for three other teams by 10 weeks total",
+                    "Partnered with third-party website design team in Israel to launch next-generation website platform, enabling sales to new segment comprising 40% of market and leading to the company’s acquisition of the vendor",
+                    "Guided team of two junior engineers through comprehensive system refactor, leading to on-time product launch and zero slowdown in sprint velocity when founding engineering manager departed the company",
+                    "Launched suite of online appointment scheduling widgets and implemented customer feature requests, boosting appointments booked through key widget by 60% and customer adoption by 17% in a single quarter",
+                    "Established weekly coding book club, introducing concepts and best practices of Clean Code to a group of five engineers"
+                ]
             },
             {
                 "title": "ORACLE",
@@ -142,13 +151,11 @@
                     ]
                 ],
                 "body": [
-                    "Serve as team Scrum Master by facilitating the scrum ceremonies, helping to resolve team impediments, and promoting agile values within the team",
-                    "Contribute fully to SuiteCloud Development Framework product release cycle, including feature and technical design as well as implementations using Java, SQL, and Test Driven Development",
-                    "Lead efforts in better testing by representing scrum team in engineering unit testing meetings and promoting useful testing techniques like fluent and custom assertions, mocking, and other tools",
-                    "Implement framework-wide refactors during sustainability periods in accordance with SOLID principles",
-                    "Work with other Platform teams across multiple locations for cross-team dependent features, including driving communication and accountability",
-                    "Onboard new Platform team members and interns through training, guidance, and as a designated mentor",
-                    "Participate in company pro bono program by volunteering up to 20 hours each quarter helping a nonprofit organization with their NetSuite implementation"
+                    "Served as first team Scrum Master and orchestrated ceremonies (standup, backlog refinement, planning, review, retrospective), lowering engineering manager workload by five hours weekly and accelerating backlog refinement by 40%",
+                    "Upgraded product quality by leading team code standards and reviews: developed with team a set of code standards and test mock frameworks to achieve department-high test coverage of over 90%",
+                    "Delivered SDK features in tandem with cross-functional and multinational team located across Redwood Shores, Canada, Spain, the Philippines, and the Czech Republic, empowering over 500 Oracle NetSuite partner-developed applications",
+                    "Identified department need for streamlined recruiting criteria, proposed solutions to stakeholders including VP of Engineering, and tested new criteria in dozens of interviews resulting in two engineers and one product manager hired",
+                    "Mentored three new graduate engineers through training covering code standards, leading to the promotion of all three"
                 ]
             },
             {

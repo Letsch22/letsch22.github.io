@@ -4,22 +4,49 @@
         "name": "Skills",
         "segments": [
             {
-                "title": "LANGUAGES",
-                "subtitle": "Descending proficiency",
+                "title": "TECHNICAL",
                 "isText": false,
                 "lists": [
                     [
                         {
+                            "content": "devicon-amazonwebservices-original",
+                            "caption": "Amazon Web Services"
+                        },
+                        {
+                            "content": "devicon-python-plain",
+                            "caption": "Python"
+                        },
+                        {
                             "content": "devicon-java-plain",
                             "caption": "Java"
+                        },
+                        {
+                            "content": "devicon-php-plain",
+                            "caption": "PHP"
                         },
                         {
                             "content": "devicon-oracle-original",
                             "caption": "Oracle SQL"
                         },
                         {
-                            "content": "devicon-javascript-plain",
-                            "caption": "JavaScript"
+                            "content": "devicon-postgresql-plain",
+                            "caption": "PostreSQL"
+                        },
+                        {
+                            "content": "devicon-mysql-plain",
+                            "caption": "MySQL"
+                        },
+                        {
+                            "content": "devicon-terraform-plain",
+                            "caption": "Terraform"
+                        },
+                        {
+                            "content": "devicon-docker-plain",
+                            "caption": "Docker"
+                        },
+                        {
+                            "content": "devicon-jenkins-line",
+                            "caption": "Jenkins"
                         },
                         {
                             "content": "devicon-html5-plain",
@@ -30,55 +57,32 @@
                             "caption": "CSS"
                         },
                         {
-                            "content": "devicon-python-plain",
-                            "caption": "Python"
+                            "content": "devicon-javascript-plain",
+                            "caption": "JavaScript"
                         },
                         {
-                            "content": "devicon-php-plain",
-                            "caption": "PHP"
-                        }
-                    ]
-                ]
-            },
-            {
-                "id": 2,
-                "title": "FRAMEWORKS",
-                "subtitle": "Descending proficiency",
-                "isText": false,
-                "lists": [
-                    [
-                        {
-                            "content": "devicon-vuejs-plain",
-                            "caption": "Vue.js"
+                            "content": "devicon-flask-original",
+                            "caption": "Flask"
                         },
                         {
                             "content": "devicon-laravel-plain",
                             "caption": "Laravel"
                         },
                         {
-                            "content": "devicon-react-original",
-                            "caption": "React"
-                        },
-                        {
-                            "content": "devicon-express-original",
-                            "caption": "Express"
-                        },
-                        {
-                            "content": "devicon-nodejs-plain",
-                            "caption": "Node.js"
+                            "content": "devicon-vuejs-plain",
+                            "caption": "Vue.js"
                         }
                     ]
                 ]
             },
             {
-                "id": 3,
-                "title": "PRACTICES",
-                "subtitle": "",
+                "id": 2,
+                "title": "PRODUCT MANAGEMENT",
                 "isText": true,
                 "lists": [
                     [
                         {
-                            "content": "Test Driven Development"
+                            "content": "Agile"
                         },
                         {
                             "content": "Scrum"
@@ -87,13 +91,13 @@
                             "content": "Scrum Master"
                         },
                         {
-                            "content": "Feature Design"
+                            "content": "Jira"
                         },
                         {
-                            "content": "Technical Design"
+                            "content": "Confluence"
                         },
                         {
-                            "content": "Mentorship"
+                            "content": "Lucidchart"
                         }
                     ]
                 ]
