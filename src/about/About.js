@@ -17,10 +17,10 @@ class About extends Component {
                 <Grid centered container>
                     <Grid.Column width={7} only="computer">
                     </Grid.Column>
-                    <Grid.Column computer={9} mobile={16} tablet={11}>
+                    {/* <Grid.Column computer={9} mobile={16} tablet={11}>
                         <Header>About Me</Header>
                         {this.state.about.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
-                    </Grid.Column>
+                    </Grid.Column> */}
                 </Grid>
             </div>
         );
