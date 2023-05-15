@@ -94,16 +94,7 @@
                         }
                     ]
                 ],
-                "body": [
-                    "Drove product roadmap with cross-team stakeholders including product managers, reducing feature creep by five unnecessary user stories and enabling on-time delivery of top priority product that increased total addressable market by 20%",
-                    "Requested by CTO to step in and provide cross-functional leadership to stabilize new team, leading cross-team collaboration to launch a foundational roadmap feature that expanded sales lead generation window for customers by 100%",
-                    "Identified need for reduced code duplication and launched three products that met requirements sourced from user interviews with department engineers, saving over 12,000 lines of redundant code across 12 microservice projects",
-                    "Designed microservice quick-start template and implemented product feedback resulting from user testing with department engineers, bringing three products to market 10 weeks ahead of initial schedule",
-                    "Partnered with third-party website design team in Israel to launch next-generation website platform, enabling sales to new segment comprising 40% of market and leading to the company’s acquisition of the vendor",
-                    "Guided team of two junior engineers through comprehensive system refactor when founding engineering manager departed the company, leading to on-time launch of product that saved 100 daily work-hours within customer success department",
-                    "Launched suite of online appointment scheduling widgets and implemented customer feature requests, boosting appointments booked through key widget by 60% and customer adoption by 17% in a single quarter",
-                    "Established weekly coding book club, introducing concepts and best practices of Clean Code to a group of five engineers"
-                ]
+                "body": []
             },
             {
                 "title": "ORACLE",
@@ -146,13 +137,7 @@
                         }
                     ]
                 ],
-                "body": [
-                    "Served as first team Scrum Master and orchestrated ceremonies (standup, backlog refinement, planning, review, retrospective), lowering engineering manager workload by five hours weekly and accelerating backlog refinement by 40%",
-                    "Upgraded product quality by leading team code standards and reviews: developed with team a set of code standards and test frameworks to achieve department-high test coverage with automated quality control for over 90% of product use cases",
-                    "Delivered SDK features in tandem with cross-functional and multinational team located across Redwood Shores, Canada, Spain, the Philippines, and the Czech Republic, empowering over 500 Oracle NetSuite partner-developed applications",
-                    "Identified department need for streamlined recruiting criteria, proposed solutions to stakeholders including VP of Engineering, and tested new criteria in dozens of interviews resulting in two engineers and one product manager hired",
-                    "Mentored three new graduate engineers through training covering code standards, leading to the promotion of all three"
-                ]
+                "body": []
             },
             {
                 "title": "NETSUITE",
@@ -181,10 +166,7 @@
                         }
                     ]
                 ],
-                "body": [
-                    "Designed and implemented, using Java and SQL, server-side API and client-side tool that customers use to convert ERP and CRM account customizations built under old bundle framework to newly-released application development framework",
-                    "Designed and implemented, using Java, many feature additions to NetSuite Eclipse IDE plugin that enable customers to take full advantage of newly-released application development framework"
-                ]
+                "body": []
             },
             {
                 "title": "EXOSITE",
@@ -207,11 +189,7 @@
                         }
                     ]
                 ],
-                "body": [
-                    "Updated and improved libraries for company APIs in various languages including C#, C++, Python, Go, and Java",
-                    "Designed, developed, and programmed Internet of Things demos working in Arduino IDE, cloud-based Lua scripts, and JavaScript",
-                    "Answered support tickets by debugging customer Internet of Things solutions"
-                ]
+                "body": []
             }
         ]
     }
