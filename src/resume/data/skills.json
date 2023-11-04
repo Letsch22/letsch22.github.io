@@ -74,33 +74,6 @@
                         }
                     ]
                 ]
-            },
-            {
-                "id": 2,
-                "title": "PRODUCT MANAGEMENT",
-                "isText": true,
-                "lists": [
-                    [
-                        {
-                            "content": "Agile"
-                        },
-                        {
-                            "content": "Scrum"
-                        },
-                        {
-                            "content": "Scrum Master"
-                        },
-                        {
-                            "content": "Jira"
-                        },
-                        {
-                            "content": "Confluence"
-                        },
-                        {
-                            "content": "Lucidchart"
-                        }
-                    ]
-                ]
             }
         ]
     }

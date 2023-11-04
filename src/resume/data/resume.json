@@ -64,6 +64,29 @@
         "name": "Experience",
         "segments": [
             {
+                "title": "AMAZON",
+                "lists": [
+                    [
+                        {
+                            "isItalics": false,
+                            "content": "Bellevue, Washington",
+                            "icon": "marker"
+                        }
+                    ],
+                    [
+                        {
+                            "isItalics": true,
+                            "content": "Senior Product Manager - Technical Intern"
+                        },
+                        {
+                            "isItalics": false,
+                            "content": "May 2023 \u2014 Aug 2023"
+                        }
+                    ]
+                ],
+                "body": ["Amazon Artificial General Intelligence"]
+            },
+            {
                 "title": "PATIENTPOP, A TEBRA COMPANY",
                 "lists": [
                     [
