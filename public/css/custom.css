@@ -68,7 +68,7 @@ body, html {
 #about {
   padding-top: 8vh;
   padding-bottom: 4em;
-  background-image: url('/images/background_original.jpg');
+  background-image: url('/public/images/background_original.jpg');
   background-color: #23386D;
   background-size: cover;
   min-height: 75vh;
@@ -264,7 +264,7 @@ div[class*="-on"].custom-modal button[class*="close-"] {
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   /* IE10+ */
   #about {
-    background-image: url('/images/background_blended.jpg');
+    background-image: url('/public/images/background_blended.jpg');
     background-color: none;
     background-blend-mode: none;
   }
@@ -273,7 +273,7 @@ div[class*="-on"].custom-modal button[class*="close-"] {
 @supports (-ms-accelerator:true) {
   /* IE Edge 12+13 CSS styles go here */
   #about {
-    background-image: url('/images/background_blended.jpg');
+    background-image: url('/public/images/background_blended.jpg');
     background-color: none;
     background-blend-mode: none;
   }
@@ -282,7 +282,7 @@ div[class*="-on"].custom-modal button[class*="close-"] {
 @supports (-ms-ime-align: auto) {
   /* Edge13&14 CSS styles go here */
   #about {
-    background-image: url('/images/background_blended.jpg');
+    background-image: url('/public/images/background_blended.jpg');
     background-color: none;
     background-blend-mode: none;
   }
