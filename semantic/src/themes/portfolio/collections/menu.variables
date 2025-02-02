@@ -4,6 +4,6 @@
 
 @fontFamily: @headerFont;
 
-@secondaryPointingInvertedActiveBorderColor: @teal;
+@secondaryPointingInvertedActiveBorderColor: @primaryColor;
 
 @secondaryPointingInvertedItemTextColor: @invertedLightTextColor;

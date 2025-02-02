@@ -16,27 +16,18 @@ body, html {
 
 /* Menu */
 
-.menu-header {
-  background-color: #222222 !important;
-}
-
-.ui.inverted.teal.menu .active.item {
-  background-color: rgba(0, 0, 0, 0) !important;
-}
-
 #mobile-menu {
   padding: 0 !important;
 }
 
-/* Title */
-
-.header-links {
-  background-color: transparent !important;
+#title-menu {
   border: none !important;
   position: relative;
   top: 10%;
   transform: translateY(-10%);
 }
+
+/* Title */
 
 .title-content {
   position: relative;
@@ -51,7 +42,6 @@ body, html {
 .title-content > .large {
   font-size: 3em !important;
   font-family: 'Dancing Script', Brush Script MT, Brush Script Std, cursive !important;
-  color: #F7F5F4 !important;
 }
 
 #home {
@@ -215,7 +205,6 @@ div[class*="-on"].custom-modal button[class*="close-"] {
 }
 
 .footer .header {
-  color: #F7F5F4;
   font-family: 'Dancing Script', Brush Script MT, Brush Script Std, cursive;
   font-size: 3.5em !important;
 }
@@ -223,6 +212,12 @@ div[class*="-on"].custom-modal button[class*="close-"] {
 .footer .icons i {
   padding-top: 0.15em;
   margin-right: 0.25em;
+  color: rgba(255, 255, 255, 0.7875);
+}
+
+.footer .icons i:hover, .footer .icons i:active {
+  color: rgba(255, 255, 255, 0.9);
+  transition: all 0.1s;
 }
 
 .footer .massive {
@@ -248,7 +243,7 @@ div[class*="-on"].custom-modal button[class*="close-"] {
     display: none;
   }
 
-  #home-menu {
+  #title-menu {
     display: none;
   }
 }

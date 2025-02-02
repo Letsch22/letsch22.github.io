@@ -15,13 +15,20 @@
 @imagePath: "../images";
 @fontPath: "../fonts";
 
-@lightBlue: #8BD7F8;
+/* colors (see http://colormind.io/bootstrap/): #F7F5F4, #8BD7F8, #222222, #8899AC, #23386D */
+
 @teal: #8BD7F8;
 @tealTextColor: #8BD7F8;
+@lightTeal: #CAEDFC;
+@lightTealTextColor: #8BD7F8;
 @blue: #23386D;
+@lightBlue: #2F4C94;
+@grey: #222222;
+@lightgrey: #3C3C3C;
+@offWhite: #F7F5F4;
 
-@primaryColor: @black;
-@secondaryColor: @white;
+@primaryColor: @teal;
+@secondaryColor: @grey;
 
-@lightPrimaryColor: @lightBlack;
-@lightSecondaryColor: @lightBlue;
+@lightPrimaryColor: @lightTeal;
+@lightSecondaryColor: @lightGrey;
