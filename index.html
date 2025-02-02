@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#222222">
+    <!--
+        manifest.json provides metadata used when your web app is added to the
+        homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+      -->
+    <link rel="manifest" href="/public/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png">
+    <link rel="manifest" href="/public/site.webmanifest">
+    <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/public/css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/custom.css">
+    <script src="/public/js/semantic.min.js"></script>
+    <script src="/public/js/custom.js"></script>
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Person",
+          "name": "Daniel Letscher",
+          "alternateName": "Dan Letscher",
+          "description": "A product manager who is passionate about gaming.",
+          "gender": "Male",
+          "url": "https://DanielLetscher.com/",
+          "jobTitle": "Product Manager",
+          "worksFor": {
+            "@type": "Corporation",
+            "name": "Microsoft"
+          },
+          "alumniOf": [
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "The Wharton School, University of Pennsylvania"
+            },
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Northwestern University"
+            }
+          ],
+          "sameAs": [
+              "https://www.linkedin.com/in/dpletscher/",
+              "https://github.com/Letsch22"
+          ]
+        }
+      </script>
+    <meta name="description" content="A product manager who is passionate about gaming.">
+    <title>Daniel Letscher</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root">
+      <div id="transition-menu"
+        class="ui grid teal massive inverted pointing secondary top fixed fade down menu-header hidden transition menu">
+        <div class="ui container">
+          <a id="menu-home-button" href="#home" class="item">HOME</a>
+          <a id="menu-resume-button" href="#resume" class="item">RESUME</a>
+        </div>
+      </div>
+      <div id="mobile-menu" class="ui row teal massive compact inverted pointing secondary top fixed menu-header menu centered">
+        <a id="mobile-menu-home-button" href="#home" class="item active">HOME</a>
+        <a id="mobile-menu-resume-button" href="#resume" class="item">RESUME</a>
+      </div>
+      <div id="home">
+        <div id="home-menu" class="ui teal massive inverted pointing secondary header-links menu">
+          <div class="ui container">
+            <a href="#home" class="item active">HOME</a>
+            <a href="#resume" class="item">RESUME</a>
+            <div class="right menu">
+              <a href="https://www.linkedin.com/in/dpletscher/" target="_blank" rel="noreferrer" class="icon link item">
+                <i aria-hidden="true" class="linkedin big icon"></i>
+              </a>
+              <a href="https://github.com/Letsch22" target="_blank" rel="noreferrer" class="icon link item">
+                <i aria-hidden="true" class="github big icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="ui container title-content">
+          <h1 class="ui teal huge header">DANIEL LETSCHER</h1>
+          <h2 class="ui large header">Product Manager</h2>
+        </div>
+      </div>
+      <div id="about">
+        <div class="ui centered container grid">
+          <div class="computer only seven wide column"></div>
+        </div>
+      </div>
+      <div id="resume">
+        <div class="ui centered container stackable vertically divided padded relaxed two column grid">
+          <div class="row">
+            <div id="experience-sticky-context" class="computer only five wide column">
+              <div class="ui sticky">
+                <div class="ui basic segment resume-header">
+                  <div class="ui blue huge header">Experience</div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile only tablet only center aligned twelve wide column">
+              <div class="ui basic segment resume-header">
+                <div class="ui blue huge header">Experience</div>
+              </div>
+            </div>
+            <div class="eleven wide computer twelve wide mobile column">
+              <div class="ui basic segment">
+                <div class="ui huge header">MICROSOFT</div>
+                <div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item">
+                      <i aria-hidden="true" class="marker icon"></i>
+                      <div class="content">Los Angeles, California</div>
+                    </div>
+                  </div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item italics"><i>Senior Product Manager</i></div>
+                    <div role="listitem" class="item">Jun 2024 — Present</div>
+                  </div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item">Xbox</div>
+                    <div role="listitem" class="item">Experiences and Platforms</div>
+                  </div>
+                </div>
+              </div>
+              <div class="ui basic segment">
+                <div class="ui huge header">AMAZON</div>
+                <div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item">
+                      <i aria-hidden="true" class="marker icon"></i>
+                      <div class="content">Bellevue, Washington</div>
+                    </div>
+                  </div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item italics"><i>Senior Product Manager - Technical Intern</i></div>
+                    <div role="listitem" class="item">May 2023 — Aug 2023</div>
+                  </div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item">Amazon Artificial General Intelligence</div>
+                  </div>
+                </div>
+              </div>
+              <div class="ui basic segment">
+                <div class="ui huge header">PATIENTPOP, A TEBRA COMPANY</div>
+                <div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item">
+                      <i aria-hidden="true" class="marker icon"></i>
+                      <div class="content">Santa Monica, California</div>
+                    </div>
+                  </div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item italics"><i>Senior Software Engineer</i></div>
+                    <div role="listitem" class="item">Feb 2021 — Jun 2022</div>
+                  </div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item italics"><i>Software Engineer II</i></div>
+                    <div role="listitem" class="item">Nov 2019 — Feb 2021</div>
+                  </div>
+                </div>
+              </div>
+              <div class="ui basic segment">
+                <div class="ui huge header">ORACLE</div>
+                <div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item"><i aria-hidden="true" class="marker icon"></i>
+                      <div class="content">Redwood Shores, California</div>
+                    </div>
+                  </div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item italics"><i>Software Engineer</i></div>
+                    <div role="listitem" class="item">Jun 2019 — Oct 2019</div>
+                  </div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item italics"><i>Associate Software Engineer</i></div>
+                    <div role="listitem" class="item">Aug 2017 — May 2019</div>
+                  </div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item">NetSuite Global Business Unit</div>
+                    <div role="listitem" class="item">Platform Development Process</div>
+                  </div>
+                </div>
+              </div>
+              <div class="ui basic segment">
+                <div class="ui huge header">NETSUITE</div>
+                <div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item"><i aria-hidden="true" class="marker icon"></i>
+                      <div class="content">San Mateo, California</div>
+                    </div>
+                  </div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item italics"><i>Software Engineering Intern</i></div>
+                    <div role="listitem" class="item">Jun 2016 — Sep 2016</div>
+                  </div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item">Platform Development Process</div>
+                  </div>
+                </div>
+              </div>
+              <div class="ui basic segment">
+                <div class="ui huge header">EXOSITE</div>
+                <div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item"><i aria-hidden="true" class="marker icon"></i>
+                      <div class="content">Minneapolis, Minnesota</div>
+                    </div>
+                  </div>
+                  <div role="list" class="ui bulleted horizontal list">
+                    <div role="listitem" class="item italics"><i>Support Services Intern</i></div>
+                    <div role="listitem" class="item">Jun 2015 — Sep 2015</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div id="education-sticky-context" class="computer only five wide column">
+              <div class="ui sticky">
+                <div class="ui basic segment resume-header">
+                  <div class="ui blue huge header">Education</div>
+                </div>
+              </div>
+            </div>
+            <div class="mobile only tablet only center aligned twelve wide column">
+              <div class="ui basic segment resume-header">
+                <div class="ui blue huge header">Education</div>
+              </div>
+            </div>
+            <div class="eleven wide computer twelve wide mobile column">
+              <div class="ui basic segment">
+                <div class="ui huge header">THE WHARTON SCHOOL</div>
+                <div role="list" class="ui bulleted horizontal list">
+                  <div role="listitem" class="item">
+                    <i aria-hidden="true" class="marker icon"></i>
+                    <div class="content">Philadelphia, Pennsylvania</div>
+                  </div>
+                </div>
+                <div role="list" class="ui bulleted horizontal list">
+                  <div role="listitem" class="item italics"><i>Master of Business Administration</i></div>
+                  <div role="listitem" class="item">Aug 2022 — May 2024</div>
+                </div>
+              </div>
+              <div class="ui basic segment">
+                <div class="ui huge header">NORTHWESTERN UNIVERSITY</div>
+                <div role="list" class="ui bulleted horizontal list">
+                  <div role="listitem" class="item">
+                    <i aria-hidden="true" class="marker icon"></i>
+                    <div class="content">Evanston, Illinois</div>
+                  </div>
+                </div>
+                <div role="list" class="ui bulleted horizontal list">
+                  <div role="listitem" class="item italics"><i>Bachelor of Arts</i></div>
+                  <div role="listitem" class="item">Sep 2013 — Jun 2017</div>
+                </div>
+                <div role="list" class="ui bulleted horizontal list">
+                  <div role="listitem" class="item">Computer Science major</div>
+                  <div role="listitem" class="item">Economics minor</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <a href="#home">
+          <button class="ui grey huge circular icon button home-button">
+            <i aria-hidden="true" class="arrow up large icon"></i>
+          </button>
+        </a>
+        <div class="ui center aligned container">
+          <div class="ui header">Thanks for visiting</div>
+          <div class="ui text container undefined icons">
+            <a href="https://www.linkedin.com/in/dpletscher/" target="_blank" rel="noreferrer">
+              <i aria-hidden="true" class="teal linkedin massive link icon"></i>
+            </a>
+            <a href="https://github.com/Letsch22" target="_blank" rel="noreferrer">
+              <i aria-hidden="true" class="teal github massive link icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
