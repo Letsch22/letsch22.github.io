@@ -139,7 +139,7 @@ export function HeroSection() {
 
             {/* Social links */}
             <StaggerItem>
-              <div className="flex items-center justify-center gap-4">
+              <div className="flex items-center justify-center gap-4 pb-20">
                 {[
                   { icon: Linkedin, href: 'https://www.linkedin.com/in/dpletscher/', label: 'LinkedIn' },
                   { icon: Github, href: 'https://github.com/Letsch22', label: 'GitHub' },
@@ -168,7 +168,7 @@ export function HeroSection() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
+        className="absolute bottom-4 left-1/2 -translate-x-1/2"
       >
         <motion.button
           onClick={scrollToExperience}
