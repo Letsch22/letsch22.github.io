@@ -1,9 +1,0 @@
-/*******************************
-             Menu
-*******************************/
-
-@fontFamily: @headerFont;
-
-@secondaryPointingInvertedActiveBorderColor: @primaryColor;
-
-@secondaryPointingInvertedItemTextColor: @invertedLightTextColor;

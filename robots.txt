@@ -1,1 +1,4 @@
-Sitemap: https://danielletscher.com/public/sitemap.xml
+User-agent: *
+Allow: /
+
+Sitemap: https://danielletscher.com/sitemap.xml

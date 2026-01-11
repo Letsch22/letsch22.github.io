@@ -1,8 +1,26 @@
 {
-  "short_name": "Portfolio",
-  "name": "Daniel Letscher's Portfolio",
-  "start_url": "./index.html",
+  "name": "Dan Letscher",
+  "short_name": "DL",
+  "description": "Personal portfolio of Dan Letscher",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#8BD7F8",
-  "background_color": "#222222"
+  "background_color": "#0f172a",
+  "theme_color": "#14b8a6",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "/android-chrome-192x192.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/android-chrome-384x384.svg",
+      "type": "image/svg+xml",
+      "sizes": "384x384"
+    }
+  ]
 }

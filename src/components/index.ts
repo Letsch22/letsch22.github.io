@@ -1,0 +1,8 @@
+export { Navigation } from './Navigation'
+export { ScrollProgress } from './ScrollProgress'
+export { AnimatedSection, StaggerContainer, StaggerItem, Parallax } from './AnimatedSection'
+export { TimelineItem, EducationCard } from './Timeline'
+export { HeroSection } from './HeroSection'
+export { ExperienceSection } from './ExperienceSection'
+export { EducationSection } from './EducationSection'
+export { Footer } from './Footer'
