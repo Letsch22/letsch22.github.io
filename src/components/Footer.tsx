@@ -46,7 +46,7 @@ export function Footer() {
               Thanks for visiting
             </h3>
             <p className="text-dark-400">
-              Let&apos;s connect and build something amazing together.
+              Let&apos;s connect.
             </p>
           </motion.div>
 
