@@ -168,19 +168,19 @@ export function EducationCard({
       initial={{ opacity: 0, y: 50, scale: 0.95 }}
       animate={isInView ? { opacity: 1, y: 0, scale: 1 } : { opacity: 0, y: 50, scale: 0.95 }}
       transition={{ duration: 0.6, delay: index * 0.2, ease: [0.22, 1, 0.36, 1] }}
-      className="glass rounded-2xl p-8 card-hover glow-border group"
+      className="glass rounded-2xl p-6 sm:p-8 card-hover glow-border group overflow-hidden"
     >
-      <div className="flex items-start justify-between gap-4 mb-4">
-        <div>
-          <h3 className="text-2xl font-bold text-white group-hover:text-gradient-static transition-all duration-500">
+      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 sm:gap-4 mb-4">
+        <div className="min-w-0">
+          <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-gradient-static transition-all duration-500 break-words">
             {school}
           </h3>
           <div className="flex items-center gap-2 text-dark-400 text-sm mt-1">
-            <MapPin size={14} className="text-primary-500" />
-            <span>{location}</span>
+            <MapPin size={14} className="text-primary-500 flex-shrink-0" />
+            <span className="truncate">{location}</span>
           </div>
         </div>
-        <div className="flex items-center gap-2 px-3 py-1 bg-accent-500/20 rounded-full text-accent-400 text-sm whitespace-nowrap">
+        <div className="flex items-center gap-2 px-3 py-1 bg-accent-500/20 rounded-full text-accent-400 text-xs sm:text-sm whitespace-nowrap self-start">
           <Calendar size={12} />
           <span>{period}</span>
         </div>
