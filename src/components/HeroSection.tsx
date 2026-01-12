@@ -68,19 +68,6 @@ export function HeroSection() {
       <div className="container-custom relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <StaggerContainer staggerDelay={0.15}>
-            {/* Greeting */}
-            <StaggerItem>
-              <motion.div
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6 }}
-                className="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-dark-800/50 rounded-full border border-dark-700/50 backdrop-blur-sm"
-              >
-                <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
-                <span className="text-sm text-dark-300">Busy building...</span>
-              </motion.div>
-            </StaggerItem>
-
             {/* Main heading */}
             <StaggerItem>
               <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">
