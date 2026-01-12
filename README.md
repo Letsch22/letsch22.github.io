@@ -133,7 +133,3 @@ To use a custom domain:
 ├── package.json             # Dependencies and scripts
 └── tsconfig.json            # TypeScript configuration
 ```
-
-## 📄 License
-
-MIT License - feel free to use this as a template for your own portfolio!
