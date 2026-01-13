@@ -46,6 +46,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/apple-touch-icon.svg" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#14b8a6" />
         <meta name="theme-color" content="#0f172a" />
+        <meta name="msvalidate.01" content="B8D81BA845FFC76EA6CA0F2084B422FE" />
       </head>
       <body className="min-h-screen bg-dark-950 text-dark-50 overflow-x-hidden">
         {/* Noise overlay for texture */}
