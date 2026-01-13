@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   creator: 'Dan Letscher',
   icons: {
     icon: [
+      { url: '/favicon.ico', sizes: '48x48' },
       { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon-32x32.svg', type: 'image/svg+xml', sizes: '32x32' },
-      { url: '/favicon-16x16.svg', type: 'image/svg+xml', sizes: '16x16' },
+      { url: '/favicon-96x96.png', type: 'image/png', sizes: '96x96' },
     ],
-    apple: '/apple-touch-icon.svg',
+    apple: '/apple-touch-icon.png',
   },
   openGraph: {
     type: 'website',
@@ -42,9 +42,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="48x48" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.svg" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#14b8a6" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <meta name="theme-color" content="#0f172a" />
         <meta name="msvalidate.01" content="B8D81BA845FFC76EA6CA0F2084B422FE" />
       </head>
