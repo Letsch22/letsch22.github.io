@@ -18,15 +18,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://danielletscher.com',
+    url: 'https://danletscher.com',
     siteName: 'Dan Letscher',
     title: 'Dan Letscher | Product Manager',
-    description: 'A product manager who is passionate about gaming. Senior Product Manager at Microsoft Xbox.',
+    description: 'A product manager who is passionate about gaming. Senior Product Manager at Xbox.',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Dan Letscher | Product Manager',
-    description: 'A product manager who is passionate about gaming. Senior Product Manager at Microsoft Xbox.',
+    description: 'A product manager who is passionate about gaming. Senior Product Manager at Xbox.',
   },
   robots: {
     index: true,
@@ -74,7 +74,7 @@ export default function RootLayout({
               "alternateName": "Dan Letscher",
               "description": "A product manager who is passionate about gaming.",
               "gender": "Male",
-              "url": "https://DanielLetscher.com/",
+              "url": "https://DanLetscher.com/",
               "jobTitle": "Senior Product Manager",
               "worksFor": {
                 "@type": "Corporation",
